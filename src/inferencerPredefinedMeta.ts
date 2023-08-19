@@ -30,4 +30,12 @@ export const inferencerPredefinedMeta = {
             fields: ["id", "title"],
         },
     },
+    tasks: {
+        getList: {
+            fields: ["id", "task", "status"]
+        },
+        getOne: {
+            fields: ["id", "task", "status"]
+        },
+    }
 };

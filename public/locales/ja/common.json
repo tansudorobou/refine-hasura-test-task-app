@@ -108,44 +108,12 @@
     "dashboard": {
         "title": "Dashboard"
     },
-    "blog_posts": {
-        "blog_posts": "Blog Posts",
-        "fields": {
-            "id": "Id",
-            "title": "Title",
-            "content": "Content",
-            "status": "Status",
-            "created_at": "Created At",
-            "category_id": "Category",
-            "category": "Category"
-        },
-        "titles": {
-            "create": "Create Blog Post",
-            "edit": "Edit Blog Post",
-            "list": "Blog Posts",
-            "show": "Show Blog Post"
-        }
-    },
-    "categories": {
-        "categories": "Categories",
-        "fields": {
-            "id": "Id",
-            "title": "Title",
-            "created_at": "Created At"
-        },
-        "titles": {
-            "create": "Create Category",
-            "edit": "Edit Category",
-            "list": "Categories",
-            "show": "Show Category"
-        }
-    },
     "tasks": {
-        "tasks": "tasks",
+        "tasks": "タスク",
         "fields": {
-            "id": "Id",
-            "task": "Task",
-            "status": "Status"
+            "id": "ID",
+            "task": "タスク",
+            "status": "ステータス"
         },
         "titles": {
             "create": "Create Category",
@@ -157,19 +125,12 @@
     "documentTitle": {
         "default": "refine",
         "suffix": " | refine",
-        "blog_posts": {
+        "tasks": {
             "list": "Blog Posts | refine",
             "show": "#{{id}} Show Blog Post | refine",
             "edit": "#{{id}} Edit Blog Post | refine",
             "create": "Create new Blog Post | refine",
             "clone": "#{{id}} Clone Blog Post | refine"
-        },
-        "categories": {
-            "list": "Categories | refine",
-            "show": "#{{id}} Show Category | refine",
-            "edit": "#{{id}} Edit Category | refine",
-            "create": "Create new Category | refine",
-            "clone": "#{{id}} Clone Category | refine"
         }
     },
     "table": {
